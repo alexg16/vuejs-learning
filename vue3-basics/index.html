@@ -96,11 +96,21 @@
                 </label>
             `,
             props: ['label'],
-            data() {
-                return {
-                    inputValue: ''
+            computed: {
+                inputValue: {
+                    get() {
+
+                    },
+                    set() {
+                        
+                    }
                 }
             }
+            // data() {
+            //    return {
+            //        inputValue: ''
+            //    }
+            //}
         })
         app.mount('#app')
     </script>
